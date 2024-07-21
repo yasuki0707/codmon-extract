@@ -8,7 +8,6 @@ import config
 driver = webdriver.Chrome()
 driver.get("https://parents.codmon.com/menu")
 time.sleep(1)
-driver.get_screenshot_as_file("screenshot1.png")
 
 # environment variables
 codmon_email = config.CODMON_EMAIL
